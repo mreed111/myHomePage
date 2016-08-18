@@ -4,7 +4,7 @@ var {Link} = require('react-router');
 var About = (props) => {
   return (
     <div>
-      <h1 className="text-center">About</h1>
+      <h1 className="text-center page-title">About</h1>
       <p>
         Welcome to the my React Weather application!  I live in
         <Link to='/?city=Vallejo'> Vallejo, CA</Link>. I grew up in
@@ -20,7 +20,7 @@ var About = (props) => {
         </li>
         <li>
           <a href="https://foundation.zurb.com/">Foundation</a> - Front-end framework tool
-          (<a href="https://foundation.zurb.com/apps/docs/#!/">docs</a>)  
+          (<a href="https://foundation.zurb.com/apps/docs/#!/">docs</a>)
         </li>
       </ul>
     </div>
